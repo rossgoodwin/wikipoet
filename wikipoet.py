@@ -52,16 +52,12 @@ def pwords(word, text):
     adj = list(set(adj))
     noun = list(set(noun))
     for i in adj[:]:
-        if contains_digits(i):
-            adj.remove(i)
-        elif len(i) < 3:
+        if contains_digits(i) or len(i) < 3 or i == word:
             adj.remove(i)
         else:
             pass
     for i in noun[:]:
-        if contains_digits(i):
-            noun.remove(i)
-        elif len(i) < 3:
+        if contains_digits(i) or len(i) < 3 or i == word:
             noun.remove(i)
         else:
             pass
