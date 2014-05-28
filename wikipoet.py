@@ -33,8 +33,6 @@ def pwords(word, text):
             adj += xa.lemma_names
         for xn in ss_n:
             noun += xn.lemma_names
-    adj = list(set(adj))
-    noun = list(set(noun))
     for i in range(len(adj)):
         adj[i] = adj[i].lower()
         if '_' in adj[i]:
@@ -51,6 +49,8 @@ def pwords(word, text):
             noun[j] = tj
         else:
             pass
+    adj = list(set(adj))
+    noun = list(set(noun))
     for i in adj[:]:
         if contains_digits(i):
             adj.remove(i)
