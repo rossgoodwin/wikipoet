@@ -1,3 +1,5 @@
+MODIFIED BSD LICENSE – COMMERCIAL USE PROHIBITED
+
 Copyright (c) 2014, Ross Goodwin
 All rights reserved.
 
@@ -10,6 +12,10 @@ modification, are permitted provided that the following conditions are met:
 * Redistributions in binary form must reproduce the above copyright notice,
   this list of conditions and the following disclaimer in the documentation
   and/or other materials provided with the distribution.
+  
+* Any redistribution, use, or modification is done solely for personal benefit
+  (where you receive no fee, salary or any other form of compensation) and not
+  for or directed towards any commercial advantage or monetary compensation.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
 AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
